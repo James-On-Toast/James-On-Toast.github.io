@@ -14,6 +14,7 @@
     </style>
   </head>
   <body>
+    <a href = "index.html">Home</a>
     <h1>James's Portfolio<h1>
     <h2>Boiling the compitition for a nice sous vide while I code my victory</h2>
     <img src="MIDEA/cs-academy-recording (1).gif">
