@@ -1,25 +1,115 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit 2 - James's Portfolio</title>
     <style>
-      body{
-      h1 {text-align: center;}
-      h2 {text-align: center;}
-      h3 {text-align: center;}
-      h4 {text-align: center;}
-      background-image: linear-gradient(yellow,grey,gold);
-      color: black;
-      display:grid;
-      place-items:center;
+      /* Body Styling */
+      body {
+        background-image: linear-gradient(yellow, grey, gold);
+        color: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      /* Menu Bar */
+      nav {
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        padding: 15px 0;
+      }
+
+      nav a {
+        color: gold;
+        text-decoration: none;
+        font-size: 18px;
+        margin: 0 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      nav a:hover {
+        background-color: gold;
+        color: black;
+      }
+
+      /* Title & Header Styling */
+      h1, h2, h3, h4 {
+        text-align: center;
+        margin: 10px 0;
+      }
+
+      h1 {
+        font-size: 3em;
+        color: #f8d347;
+      }
+
+      h2 {
+        font-size: 1.5em;
+        font-style: italic;
+      }
+
+      /* Image Styling */
+      img {
+        max-width: 80%;
+        height: auto;
+        border: 5px solid white;
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+
+      /* Section Spacing */
+      section {
+        width: 80%;
+        margin: 20px 0;
+      }
+
+      /* Footer */
+      footer {
+        background-color: black;
+        color: gold;
+        padding: 15px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
       }
     </style>
   </head>
   <body>
-    <a href = "index.html">Home</a>
-    <h1>James's Portfolio<h1>
-    <h2>Boiling the compitition for a nice sous vide while I code my victory</h2>
-    <img src="MIDEA/cs-academy-recording (1).gif">
-    <h3>Above is an example of my imaculate skills</h3>
-    <h3>Below is a glimpse into my masterful coding talent:</h3>
-    <img src="MIDEA/Screenshot 2025-02-18 4.46.11 PM.png">
-    </body>
+    <!-- Navigation Menu -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Unit2.html">Unit 2</a>
+    </nav>
+
+    <!-- Portfolio Content -->
+    <h1>James's Portfolio</h1>
+    <h2>Boiling the competition for a nice sous vide while I code my victory</h2>
+
+    <section>
+      <h3>Above is an example of my immaculate skills:</h3>
+      <img src="MIDEA/cs-academy-recording (1).gif" alt="Example of my skills" />
+    </section>
+
+    <section>
+      <h3>Below is a glimpse into my masterful coding talent:</h3>
+      <img src="MIDEA/Screenshot 2025-02-18 4.46.11 PM.png" alt="Screenshot of my coding work" />
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 James's Portfolio | All Rights Reserved</p>
+    </footer>
+  </body>
 </html>
+
